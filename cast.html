@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Cast</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+	  <canvas id="main" style="display:none;" width="400" height="400"></canvas>
+		<script type="text/javascript" src="./cast.js"></script>
+		<style type="text/css">
+			body {
+				background: linear-gradient(to bottom, #feccb1 0%,#f17432 38%,#e27624 56%,#fb955e 100%);
+			}
+			#title {
+				color: rgba(255, 255, 255, 0.8);
+				margin-top: 0px;
+				font-size: 64px;
+				text-align: center;
+				font-family: courier;
+			}
+			#output {
+				text-align: center;
+			}
+			#output span {
+				margin: 10px;
+			}
+		</style>
+		<h1 id="title" class="content title">Set a title</h1>
+		<div id="output" class="content output">
+			<span class="first"></span>
+			<span class="second"></span>
+		</div>
+	</body>
+</html>
